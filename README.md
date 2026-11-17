@@ -1,5 +1,5 @@
-Structure of the project :
-
+# READ ME
+## Structure of the project :
 project/
 ├── data/ data
 │ ├── raw/ never modified
@@ -15,4 +15,28 @@ project/
 ├── requirements.txt ├── .gitignore
 └── README.md
 
-A modifier /\
+## Things to do :   
+ - Data Exploration av 20/11 
+  - Explication des valeurs incohérentes #Maxime
+ - Data preparation av 20/11
+    - Vérification des données #Maxime
+    - Compréhension des ≠ colonnes #Maxime #Baptiste
+    - Réflexion sur la méthode de travail : #Baptiste
+        - Training, testing and forecasting
+        - Features => flux horaire(/jour)
+        - Explicitation des hypothèses 
+ - Regressions av 27/11
+    - Clean le truc 
+    - Reprendre les bonnes features pr la regression
+    - Tester plusieurs regressions et l'améliorer au fur et à mesure
+    - Plotting tt 
+    - Testing des modèles
+    - Forecasting des modèles
+ - Rédaction du rapport + support de présentation av 3/12 #Chloé
+
+## Sections du rapport 
+- Context and question, Problem, goals and why they matter, 1-2 pages
+- Data and assumptions, Coverage, quality issues and limitations, 1-2 pages
+- Preparation and features, Cleaning choices and feature construction, 2-4 pages
+- Analysis and ML methods, Methods, baseline and evaluation approach, 2-4 pages
+- Results and conclusions, Evidence, interpretation, limits and next steps, 4-10 pages
