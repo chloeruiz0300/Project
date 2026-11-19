@@ -1,3 +1,10 @@
 .venv
 /Data
 /TP2
+*.aux
+*.log
+*.synctex*
+*.fdb_latexmk
+*.fls
+*.toc
+*.out
