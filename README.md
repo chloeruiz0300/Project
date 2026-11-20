@@ -17,16 +17,16 @@ project/
 
 ## Things to do :   
  - Data Exploration av 20/11 
-  - Explication des valeurs incohérentes #Maxime
+    - Explication des valeurs incohérentes #Maxime
  - Data preparation av 20/11
     - Vérification des données #Maxime
-    - Compréhension des ≠ colonnes #Maxime #Baptiste
+    - Compréhension des ≠ colonnes #Maxime #Baptiste DONE
     - Réflexion sur la méthode de travail : #Baptiste
-        - Training, testing and forecasting
-        - Features => flux horaire(/jour)
-        - Explicitation des hypothèses 
+        - Training, testing and forecasting 
+        - Features => flux horaire(/jour) DONE
+        - Explicitation des hypothèses DONE
  - Regressions av 27/11
-    - Clean le truc 
+    - Clean le truc #Baptiste (si tps)
     - Reprendre les bonnes features pr la regression
     - Tester plusieurs regressions et l'améliorer au fur et à mesure
     - Plotting tt 
