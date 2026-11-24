@@ -1,0 +1,49 @@
+﻿WeatherCode,Condition,Associated number
+395,Moderate or heavy snow in area with thunder,2
+392,Patchy light snow in area with thunder,2
+389,Moderate or heavy rain in area with thunder,1
+386,Patchy light rain in area with thunder,1
+377,Moderate or heavy showers of ice pellets,3
+374,Light showers of ice pellets,3
+371,Moderate or heavy snow showers,2
+368,Light snow showers,2
+365,Moderate or heavy sleet showers,3
+362,Light sleet showers,3
+359,Torrential rain shower,1
+356,Moderate or heavy rain shower,1
+353,Light rain shower,1
+350,Ice pellets,3
+338,Heavy snow,2
+335,Patchy heavy snow,2
+332,Moderate snow,2
+329,Patchy moderate snow,2
+326,Light snow,2
+323,Patchy light snow,2
+320,Moderate or heavy sleet,3
+317,Light sleet,3
+314,Moderate or Heavy freezing rain,1
+311,Light freezing rain,1
+308,Heavy rain,1
+305,Heavy rain at times,1
+302,Moderate rain,1
+299,Moderate rain at times,1
+296,Light rain,1
+293,Patchy light rain,1
+284,Heavy freezing drizzle,1
+281,Freezing drizzle,1
+266,Light drizzle,1
+263,Patchy light drizzle,1
+260,Freezing fog,0
+248,Fog,0
+230,Blizzard,2
+227,Blowing snow,2
+200,Thundery outbreaks in nearby,1
+185,Patchy freezing drizzle nearby,1
+182,Patchy sleet nearby,3
+179,Patchy snow nearby,2
+176,Patchy rain nearby,1
+143,Mist,0
+122,Overcast,0
+119,Cloudy,0
+116,Partly Cloudy,0
+113,Clear/Sunny,0

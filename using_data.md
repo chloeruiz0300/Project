@@ -1,5 +1,5 @@
 ## Hypotheses 
-Nous pensons que la météo, la fréquentation des autres périodes/jours/heures et le remplissage on un effet sur le flux de passagers. 
+Nous pensons que la météo (température, pluie, neige, grêle et vent), la fréquentation des autres périodes/jours/heures et le remplissage on un effet sur le flux de passagers. 
 
 ## Choix et préparation avant modélisation
 1. Ligne : *on étudie uniquement la ligne T1*
@@ -21,6 +21,7 @@ Nous pensons que la météo, la fréquentation des autres périodes/jours/heures
         - Peak hours (on se fixe 7h-9h et 17h-19h par ex) 0/1
 4. On sépare le dataset en 2 selon les sens de circulation
 5. On prépare un dataset de la météo par heures, jours et mois pour pouvoir le caler sur nos données 
+    - On peut garder uniquement la température et savoir s'il pleut ou non (0/1)
 6. On prépare une fonction qui nous renvoie en fonction du jour de la semaine et de l'heure le nombre de trams en circulation pour connaître la capacité max de nos rames (moyen de vérifier que le modèle dit pas n'importe quoi) et si le tram est bondé ou pas. 
 
 ## Choix de modélisation 
