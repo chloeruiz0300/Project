@@ -5,7 +5,8 @@ Nous pensons que la météo (température, pluie, neige, grêle et vent), la fr�
 1. Ligne : *on étudie uniquement la ligne T1* ✅ 
     - On retire les colonnes inutiles ✅
 2. Dates : 
-    - *On enlève complètement la période COVID* : 2020-03-15 et après 
+    - *On enlève complètement la période COVID* : 2020-03-15 et après ✅
+    - On groupe par ligne, par sens et par heures et on compte le flow ✅
     - On enlève les jours avec une valeur de flow abérante : flow = 0
     - On ajoute les créneaux absents s'il n'y a pas eu de validation pendant une heure à un arrêt par exemple. 
 3. Ajout de colonnes : 
@@ -14,9 +15,9 @@ Nous pensons que la météo (température, pluie, neige, grêle et vent), la fr�
         - Mois ✅
         - Heure ✅
     - Colonnes "suplémentaires" :
-        - Vacances 0/1
-        - Work/Not work days 0/1
-        - Peak hours (on se fixe 7h-9h et 17h-19h par ex) 0/1
+        - Vacances 0/1 ✅
+        - Work/Not work days 0/1 ✅
+        - Peak hours (on se fixe 7h-9h et 17h-19h par ex) 0/1 ✅
 4. On sépare le dataset en 2 selon les sens de circulation
 5. On split les deux datasets en deux : 
     - le training set [[2019-11-01 ; 2019-12-25],[2020-01-06 ; 2020-02-09]]
