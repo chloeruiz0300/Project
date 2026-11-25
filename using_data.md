@@ -5,7 +5,7 @@ Nous pensons que la météo (température, pluie, neige, grêle et vent), la fr�
 1. Ligne : *on étudie uniquement la ligne T1* ✅ 
     - On retire les colonnes inutiles ✅
 2. Dates : 
-    - *On enlève complètement la période COVID* : 2020-03-15 et après
+    - *On enlève complètement la période COVID* : 2020-03-15 et après 
     - On enlève les jours avec une valeur de flow abérante : flow = 0
     - On ajoute les créneaux absents s'il n'y a pas eu de validation pendant une heure à un arrêt par exemple. 
 3. Ajout de colonnes : 
@@ -22,10 +22,9 @@ Nous pensons que la météo (température, pluie, neige, grêle et vent), la fr�
     - le training set [[2019-11-01 ; 2019-12-25],[2020-01-06 ; 2020-02-09]]
      - le validation set [[2019-12-26 ; 2020-01-05],[2020-02-10 ; 2020-03-15]]  
 
-Ici, on a donc 6 data sets : 2 pour le dataset entier (training et testing), 2 pour le sens de circulation 0 et 2 pour le sens de circulation 1. Chaque dataset s'appelle : 
-    **- df_tram_all_training et df_tram_all_testing**
-    **- df_tram_s0_training et df_tram_s0_testing**
-    **- df_tram_s1_training et df_tram_s1_testing**
+Ici, on a donc 2 data sets : 1 par sens de circulation. Chaque dataset s'appelle : 
+    **- df_tram_s0**
+    **- df_tram_s1**
 
 6. On prépare un dataset de la météo par heures, jours et mois pour pouvoir le caler sur nos données ✅
     - On peut garder uniquement la température et savoir s'il neige, pleut ou non (2/1/0) ✅   
